@@ -11,7 +11,7 @@ export default function Sidebar(props) {
 			 top-[64px]
 			 self-start`}
 		>
-			SideBar
+			{props.children}
 		</aside>
 	);
 }

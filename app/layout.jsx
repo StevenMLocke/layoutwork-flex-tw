@@ -1,7 +1,4 @@
 import "./globals.css";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import Sidebar from "../components/sidebar";
 
 export default function RootLayout({ children }) {
 	return (
@@ -13,7 +10,6 @@ export default function RootLayout({ children }) {
 			<head />
 			<body
 				className=' w-full
-										2xl:w-7/12
 										m-auto
 										min-h-screen'
 			>
