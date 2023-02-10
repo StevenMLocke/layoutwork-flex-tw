@@ -14,85 +14,13 @@ export default function Main() {
 
 	return (
 		<>
-			<div className='flex flex-wrap min-h-screen content-start'>
-				<Header click={clickHandler}>This is the Beginning</Header>
+			<Header click={clickHandler}>...and Then There Were 2</Header>
+			<div className='flex-grow flex md:flex-row lg:w-[90%] md:mx-auto'>
 				<Sidebar expanded={expanded}>
 					<Link href='/home'>Forward</Link>
 				</Sidebar>
-				<main className='min-w-full md:min-w-[75%] bg-sky-900 flex-1 '>
+				<main className='md:basis-3/4 2xl:basis-5/6 bg-sky-900'>
 					<section>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							consectetur consequuntur sequi aliquam cupiditate doloribus
-							aspernatur minus, error, quis facilis at nemo nihil adipisci natus
-							eveniet dolorum. Adipisci, voluptates quam.
-						</p>
 						<p>
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
 							consectetur consequuntur sequi aliquam cupiditate doloribus

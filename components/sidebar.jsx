@@ -1,15 +1,29 @@
 export default function Sidebar(props) {
 	return (
 		<aside
-			className={`${props.expanded ? "fixed w-screen " : "hidden"} 
-			 min-h-[calc(100vh_-_64px)]
-			 flex-col
-			 md:flex
-			 bg-slate-500
-			 md:w-1/4
-			 sticky
-			 top-[64px]
-			 self-start`}
+			className={`${
+				props.expanded
+					? "w-9/12 h-3/6 border-r-2 border-b-2 border-b-white border-r-white"
+					: "hidden"
+			} 
+				md:h-auto
+				max-h-[calc(100vh_-_var(--header-offset))]
+				md:flex
+				flex-col
+				top-[var(--header-offset)]
+
+				md:basis-1/4
+				2xl:basis-1/6
+				3xl:basis-1/12
+
+				md:shrink-0
+				fixed
+				md:sticky
+				
+				md:self-start
+
+				pl-4 pt-4
+			`}
 		>
 			{props.children}
 		</aside>

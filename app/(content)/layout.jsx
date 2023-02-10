@@ -2,8 +2,9 @@
 import Header from "../../components/header";
 import Sidebar from "../../components/sidebar";
 import Footer from "../../components/footer";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRef } from "react";
 
 export default function Main({ children }) {
 	const [expanded, setExpanded] = useState(false);
@@ -14,14 +15,17 @@ export default function Main({ children }) {
 
 	return (
 		<>
-			<div className='flex flex-wrap min-h-screen content-start'>
-				<Header click={clickHandler}>...and Then There Were 2</Header>
+			<Header click={clickHandler}>...and Then There Were 2</Header>
+			<div className='flex-grow flex md:flex-row w-full lg:w-[90%] md:mx-auto '>
 				<Sidebar expanded={expanded}>
-					<Link href='/'>Back</Link>
+					<Link
+						className='link'
+						href='/'
+					>
+						Back
+					</Link>
 				</Sidebar>
-				<main className='min-w-full md:min-w-[75%] bg-sky-900 flex-1 '>
-					{children}
-				</main>
+				{children}
 			</div>
 			<Footer>Footer</Footer>
 		</>
