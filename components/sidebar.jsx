@@ -6,8 +6,9 @@ export default function Sidebar(props) {
 					? "w-9/12 h-3/6 border-r-2 border-b-2 border-b-white border-r-white"
 					: "hidden"
 			} 
+				bg-slate-800
 				md:h-auto
-				max-h-[calc(100vh_-_var(--header-offset))]
+				min-h-[calc(100vh_-_var(--header-offset))]
 				md:flex
 				flex-col
 				top-[var(--header-offset)]
@@ -23,6 +24,7 @@ export default function Sidebar(props) {
 				md:self-start
 
 				pl-4 pt-4
+				z-20
 			`}
 		>
 			{props.children}

@@ -16,7 +16,8 @@ export default function RootLayout({ children }) {
 										m-auto
 										min-h-screen
 										flex
-										flex-col'
+										flex-col
+										@container'
 			>
 				{children}
 			</body>

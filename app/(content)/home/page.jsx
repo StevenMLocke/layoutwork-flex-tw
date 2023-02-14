@@ -32,8 +32,8 @@ export default function Home() {
 	}'`;
 
 	return (
-		<section className='flex flex-wrap gap-4 mx-auto justify-around'>
-			<div className='card flex-1 shadow-md shadow-slate-400 basis-20 my-4'>
+		<section className='flex flex-wrap flex-col md:flex-row gap-4 mx-auto p-4 justify-around bg-slate-600'>
+			<div className='card flex-shrink-0 flex-grow shadow-md shadow-slate-400 basis-20 my-4 bg-primary-content'>
 				<div className='card-body'>
 					<p>
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
@@ -43,7 +43,7 @@ export default function Home() {
 					</p>
 				</div>
 			</div>
-			<div className='card flex-1 shadow-md shadow-slate-400 basis-20 my-4'>
+			<div className='card flex-shrink-0 flex-grow shadow-md shadow-slate-400 basis-20 my-4'>
 				<div className='card-body'>
 					<p>
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
@@ -53,7 +53,7 @@ export default function Home() {
 					</p>
 				</div>
 			</div>
-			<div className='card flex-1 shadow-md shadow-slate-400 basis-20 my-4'>
+			<div className='card flex-1 shadow-md shadow-slate-400 basis-20 my-4 shrink-0'>
 				<div className='card-body'>
 					<p>
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
