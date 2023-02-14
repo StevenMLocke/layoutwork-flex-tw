@@ -20,7 +20,7 @@ export default function Page({ children }) {
 							items-end
 							rotate-[-45deg]
 							origin-bottom-left
-							${rotated && "rotate-[-10deg] translate-x-0"}
+							${rotated && "rotate-[-0.0deg] translate-x-0"}
 							`}
 				onClick={clickHander}
 			>
